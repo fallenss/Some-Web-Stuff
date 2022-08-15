@@ -1,0 +1,25 @@
+.modal{
+  padding: 50px;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed; top: 0%; left: 50%;
+  -webkit-transform: translate(-50%, -10%);
+  text-align: center;
+}
+.sim input {
+    display:block;
+    font-size:14px;
+    font-family:"Helvetica", "Arial", "Tahoma", "Geneva", sans-serif;
+	weight
+}
+.sim{
+	  background-color: rgba(0, 0, 0, .5);
+	  padding: 50px;
+	  position: fixed; top: 0%; left: 70%;
+  -webkit-transform: translate(-50%, -10%);
+  
+  
+}
+
+div {
+  
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC «-//W3C//DTD HTML 4.01 Transitional//EN» «http://www.w3.org/TR/html4/loose.dtd»>
+<html><head>
+<title>Ну типа страница </title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+  <style>
+   body {
+    background: #c7b39b url(img/font.jpg); /* Цвет фона и путь к файлу */
+    color: lightblue; /* Цвет текста */
+   }
+  </style>
+  <script type="text/javascript" src="script.js">
+
+  </script>
+  <link href="css/common.css" rel="stylesheet" type="text/css">
+  </head>
+<body>
+<form name=sum class="sim">
+WAF (4560,20 р.), кол-во: <input type="text" name="n1" value=0><br>
+DLP (520,40 р.), кол-во: <input type="text" name="n2" value=0><br>
+SIEM (6320,70 р.), кол-во: <input type="text" name="n3" value=0><br>
+Внесено средств: <input type="text" name="n4" value=0><br>
+<input type="button" name="but" value="Go" onClick="summa()"><br><br>
+<div><div id="s">Сдача: </div><input type="text" name="res"></div>
+</form>
+<div class="modal">
+<form name=rect >
+Сторона a: <input type="text" name="n1" value=0><br>
+Сторона b: <input type="text" name="n2" value=0><br><br>
+<input type="button" name="but" value="Go" onClick="rec()" align=center><br><br>
+<div id="s1"> </div>
+</form></div>
+
+<BODY ONLOAD="scrollMsg()">
+<FORM NAME="scrollerForm">
+<INPUT TYPE="text" NAME="welcomeMsg"
+VALUE="" size=10><br>
+<input type="button"
+name="go" value="Пуск"
+onClick="scrollMsg()">&nbsp;&nbsp;
+<input type="button" name="stop"
+value="Стоп" onClick="stopMsg()">
+</FORM>
+
+<div id="pica">
+<img src="img/1.jpg" name="myImage2" border=0 width=500 height=300
+onMouseOver="this.src='img/2.jpg'"
+onMouseOut="this.src='img/1.jpg'">
+</div>
+
+</body> </html>
